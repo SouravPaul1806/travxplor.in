@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>travxplor.in</title>
+    <style>
+        /* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #012733;
+;
+    color: white;
+    padding: 10px 0;
+}
+
+.brand {
+    margin-left: 20px;
+}
+
+.brand h1 {
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+nav li a:hover{
+    color:#ff8c69;
+    transition: all 0.5s ease 0s;
+}
+
+.content-images{
+    height: 477.8px;
+    width: 100%;
+    background-image: url(flight\ image.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    animation-name:myanimation ;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes myanimation{
+    0%{background-image: url(flight\ image.jpg);}
+    35%{background-image: url(ultralight\ .jgp.jpg);}
+    55%{background-image: url(ultralight-aviation-jpg.jpg);}
+    65%{background-image: url(Parasellingimage.jpg);}
+    85%{background-image: url(paramotor\ 1.jpg);}
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.registration-box {
+    background-color: #16a70c #AFFCF2;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}     
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #e74949;
+    color: #f7f7f7;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    
+    background-color: #eaf4ff;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .brand {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
+button{
+    background-color: #e74949;
+    color: #f7f7f7;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    
+    background-color: #eaf4ff;
+}
+ 
+footer {
+        background-color: #141212b0;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .footer-content {
+        max-width: 1660px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        display: inline;
+        margin-right: 15px;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+
+
+
+    </style>
+</head>
+<body>
+ 
+    <header>
+        <nav>
+            <div class="brand">
+                <h1>travxplor.in</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+               <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <br>
+            
+           
+            
+        </nav>
+    </header>
+    <div class="content-images"></div>
+    <div class="registration-box">
+        <br>
+        <h2>Registration Form</h2>
+        <br>
+    
+        <form action="#" method="POST">
+            <label for="name">Enter Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="Preffered Time">Service Type</label>
+            <select id="country" name="country">
+                <option value="usa">Choose One</option>
+                <option value="canada">Micro light</option>
+              
+            </select>
+            <label for="Preffered Time">Number of Tickets</label>
+            <select id="tickets" name="tickects">
+                <option value="">0</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+               
+                <tr>
+                    <h3>Packages</h3>
+                    <td>
+                        <input type="radio" id="" value="Packages"  name="Packages">7-10minutes
+                        <input type="radio" id="" value="Packages"  name="Packages">20-25Minutes
+                        <input type="radio" id="" value="Packages"  name="Packages">40-45Minutes
+                    </td>
+                </tr>  
+                <br>
+                <br> 
+            </select>
+            <br>
+            <label for="">Preffered Time</label>
+            <select id="Time" name="Time">
+                <option value="">6AM-6.30Am</option>
+                <option value="">7AM-7.40Am</option>
+                <option value="">8AM-8.30Am</option>
+                <option value="">9AM-9.45Am</option>
+                <option value="">10AM-10.30Am</option>
+               
+              
+              
+            </select>
+ 
+              
+              
+            </select>
+
+            <label for="Preffered Time">Flying Date</label>
+            <select id="Date" name="Date">
+                <option value="">Sun 1 Oct 2023</option>
+                <option value="">Mon 2 Oct 2023</option>
+                <option value="">Sun 8 Oct 2023</option>
+                <option value="">Mon 9 Oct 2023</option>
+                <option value="">Sun 15 Oct 2023</option>
+                <option value="">Mon 16 Oct 2023</option>
+                <option value="">Sun 22 Oct 2023</option>
+                <option value="">Mon 23 Oct 2023</option>
+               
+                
+            </select>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+          <form action="booking.html">
+            <button>SUBMIT</button>
+          </form>
+ <br>
+ <br>
+
+           <footer>
+            <P>Follow Us on</P>
+            <img src="socialmedialogo.png" alt="" height="10%" width="20%">
+            <div class="footer-content">
+               
+            </div>
+        </footer>
+
+        <html lang="en">
+  
+        <body>
+            
+        
+            <footer>
+                <div class="footer-content">
+                    <p>&copy; travxplor.in 2023| All Rights Reserved.</p>
+                    <p><a href="terms.html">Terms and Conditions</a></p>
+                </div>
+            </footer>
+            <div class="horizontal-line"></div>
+            <div class="horizontal-line"></div>
+            <div class="horizontal-line"></div>
+        </body>
+        
+   
+   
+</body>
+</html>
+
+</body>
+</html>
